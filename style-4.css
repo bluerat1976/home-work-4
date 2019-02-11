@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first {
+    position: relative;
+    left: 50px;
+    width: 500px;
+    height: 250px;
+    border: 2px solid orange;
+    border-radius: 10px;
+}
+.second {
+    width: 600px;
+    height: 250px;
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+.third {
+    position: relative;
+    width: 1000px;
+    height: 200px;
+    border: 2px solid green;
+}
+.fourth {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 400px;
+    height: 150px;
+    border: 1px solid red;
+}
+.first h3,
+.first p,
+.second h3,
+.second p {
+   text-align: center; 
+}
+.first h3,
+.second h3 {
+    font-size: 28px;
+}
+.first p,
+.second p {
+    font-size: 22px;
+ }
